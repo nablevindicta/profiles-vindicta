@@ -4,7 +4,6 @@ import { About } from "@/components/landing/About";
 import { Highlights } from "@/components/landing/Highlights";
 import { NeonToolkit } from "@/components/landing/NeonToolkit";
 import { SocialMedia } from "@/components/landing/SocialMedia";
-import { Achievements } from "@/components/landing/Achievements";
 import { Contact } from "@/components/landing/Contact";
 import { Footer } from "@/components/landing/Footer";
 
@@ -18,7 +17,6 @@ export default function Home() {
         <Highlights />
         <NeonToolkit />
         <SocialMedia />
-        <Achievements />
         <Contact />
       </main>
       <Footer />
