@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Artistic depiction of Valorant agent Neon running",
+      "imageUrl": "https://images.unsplash.com/photo-1573761449626-1b80629dafc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dmFsb3JhbnQlMjBuZW9ufGVufDB8fHx8MTc2MDgwNjc4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "valorant neon"
+    },
+    {
+      "id": "vindicta-profile",
+      "description": "Profile picture of Vindicta",
+      "imageUrl": "https://images.unsplash.com/photo-1667970573560-6ecf6a143514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnYW1lciUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MDczNTA1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gamer portrait"
+    },
+    {
+      "id": "gameplay-clip-1",
+      "description": "Thumbnail for a Valorant gameplay clip showing an ace",
+      "imageUrl": "https://picsum.photos/seed/clip1/800/450",
+      "imageHint": "valorant gameplay"
+    },
+    {
+      "id": "gameplay-clip-2",
+      "description": "Thumbnail for a Valorant gameplay clip showing a clutch moment",
+      "imageUrl": "https://images.unsplash.com/photo-1759701547127-e1e1597dd8e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlc3BvcnRzJTIwYWN0aW9ufGVufDB8fHx8MTc2MDgwNjc4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "esports action"
+    },
+    {
+      "id": "gameplay-clip-3",
+      "description": "Thumbnail for a Valorant gameplay clip showing Neon's ultimate ability",
+      "imageUrl": "https://images.unsplash.com/photo-1605564538457-6f14c62db999?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxuZW9uJTIwdmFsb3JhbnR8ZW58MHx8fHwxNzYwODA2Nzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "neon valorant"
+    },
+    {
+      "id": "gameplay-clip-4",
+      "description": "Thumbnail for a Valorant gameplay clip",
+      "imageUrl": "https://images.unsplash.com/photo-1639932068331-c6518cb3b8db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmaXJzdC1wZXJzb24lMjBzaG9vdGVyfGVufDB8fHx8MTc2MDc3Mjg0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "first-person shooter"
+    },
+    {
+      "id": "tiktok-1",
+      "description": "Thumbnail for a TikTok video",
+      "imageUrl": "https://images.unsplash.com/photo-1494366222322-387658a1a976?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwaG9uZSUyMHNjcmVlbnxlbnwwfHx8fDE3NjA3NDkxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone screen"
+    },
+    {
+      "id": "tiktok-2",
+      "description": "Thumbnail for a TikTok video",
+      "imageUrl": "https://images.unsplash.com/photo-1632064824547-e77c36851495?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnYW1pbmclMjBzZXR1cHxlbnwwfHx8fDE3NjA3NjIzMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gaming setup"
+    },
+    {
+      "id": "tiktok-3",
+      "description": "Thumbnail for a TikTok video",
+      "imageUrl": "https://images.unsplash.com/photo-1759701547121-d5e4188e3d3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnYW1lciUyMHJlYWN0aW9ufGVufDB8fHx8MTc2MDgwNjc4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gamer reaction"
+    },
+    {
+      "id": "tiktok-4",
+      "description": "Thumbnail for a TikTok video",
+      "imageUrl": "https://images.unsplash.com/photo-1698772803790-2e3eacd07936?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkYW5jZSUyMGNoYWxsZW5nZXxlbnwwfHx8fDE3NjA4MDY3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dance challenge"
+    },
+    {
+      "id": "tiktok-5",
+      "description": "Thumbnail for a TikTok video",
+      "imageUrl": "https://images.unsplash.com/photo-1630348637620-3d0584aa148f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmdW5ueSUyMHNrZXRjaHxlbnwwfHx8fDE3NjA4MDY3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "funny sketch"
+    },
+    {
+      "id": "tiktok-6",
+      "description": "Thumbnail for a TikTok video",
+      "imageUrl": "https://images.unsplash.com/photo-1619133570022-4851ef7a95b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsaXAlMjBzeW5jfGVufDB8fHx8MTc2MDgwNjc4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lip sync"
+    }
+  ]
 }
