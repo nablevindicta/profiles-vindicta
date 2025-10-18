@@ -38,7 +38,7 @@ export const Highlights = () => {
         >
           <CarouselContent>
             {gameplayClips.map((clip, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+              <CarouselItem key={index} className="basis-full md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
                   <a href="#" className="block group">
                     <Card className="overflow-hidden relative border-2 border-border hover:border-primary transition-colors duration-300 clip-path-polygon">
