@@ -14,8 +14,8 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Send } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Send, ChevronRight } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const formSchema = z.object({
@@ -44,34 +44,41 @@ export const Contact = () => {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    // This is where you would handle form submission, e.g., send to an API endpoint.
     console.log(values);
     toast({
-        title: "Message Sent!",
+        title: "Transmission Received",
         description: "Thanks for reaching out. I'll get back to you soon.",
+        variant: "default"
     });
     form.reset();
   }
 
   return (
-    <section id="contact" className="py-16 md:py-24">
-      <div className="container max-w-screen-md">
-        <Card>
-            <CardHeader className="text-center">
-                <CardTitle className="text-4xl md:text-5xl font-bold font-headline text-primary">Get In Touch</CardTitle>
-                <CardDescription>For collaborations, business inquiries, or just to say hi.</CardDescription>
-            </CardHeader>
-            <CardContent>
+    <section id="contact" className="py-20 md:py-32 bg-secondary/50">
+      <div className="container max-w-screen-md relative">
+        <div className="absolute -top-8 left-0 text-7xl md:text-9xl font-black font-headline text-border opacity-30 select-none" aria-hidden="true">
+            05
+        </div>
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold font-headline">
+            <span className="text-primary">//</span> Get In Touch
+          </h2>
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-foreground/80 font-mono">
+            For collaborations, business inquiries, or just to say hi.
+          </p>
+        </div>
+        <Card className="bg-background/50 border-2 border-border clip-path-polygon">
+            <CardContent className="p-8 md:p-10">
                 <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                     <FormField
                     control={form.control}
                     name="name"
                     render={({ field }) => (
                         <FormItem>
-                        <FormLabel>Name</FormLabel>
+                        <FormLabel className="font-mono text-sm uppercase tracking-wider">Name</FormLabel>
                         <FormControl>
-                            <Input placeholder="Your Name" {...field} />
+                            <Input placeholder="Your Callsign" {...field} className="font-mono"/>
                         </FormControl>
                         <FormMessage />
                         </FormItem>
@@ -82,9 +89,9 @@ export const Contact = () => {
                     name="email"
                     render={({ field }) => (
                         <FormItem>
-                        <FormLabel>Email</FormLabel>
+                        <FormLabel className="font-mono text-sm uppercase tracking-wider">Email</FormLabel>
                         <FormControl>
-                            <Input type="email" placeholder="your@email.com" {...field} />
+                            <Input type="email" placeholder="your@comms.link" {...field} className="font-mono"/>
                         </FormControl>
                         <FormMessage />
                         </FormItem>
@@ -95,11 +102,11 @@ export const Contact = () => {
                     name="message"
                     render={({ field }) => (
                         <FormItem>
-                        <FormLabel>Message</FormLabel>
+                        <FormLabel className="font-mono text-sm uppercase tracking-wider">Message</FormLabel>
                         <FormControl>
                             <Textarea
-                            placeholder="Tell me about your project or inquiry..."
-                            className="min-h-[150px]"
+                            placeholder="Your transmission..."
+                            className="min-h-[150px] font-mono"
                             {...field}
                             />
                         </FormControl>
@@ -107,10 +114,10 @@ export const Contact = () => {
                         </FormItem>
                     )}
                     />
-                    <div className="flex justify-center">
-                        <Button type="submit" size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-bold w-full md:w-auto">
-                            Send Message
-                            <Send className="ml-2 h-5 w-5" />
+                    <div className="flex justify-center pt-4">
+                        <Button type="submit" size="lg" className="font-bold text-lg bg-primary text-primary-foreground hover:bg-primary/90 hover:shadow-[0_0_20px_hsl(var(--primary)/0.5)] transition-shadow duration-300 clip-path-polygon group w-full md:w-auto">
+                            Send Transmission
+                            <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                         </Button>
                     </div>
                 </form>

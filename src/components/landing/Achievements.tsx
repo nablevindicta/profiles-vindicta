@@ -11,23 +11,23 @@ const achievementsList = [
 
 export const Achievements = () => {
   return (
-    <section id="achievements" className="py-16 md:py-24 bg-secondary">
+    <section id="achievements" className="py-20 md:py-32 bg-secondary/50">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold font-headline text-primary">
-            Achievements
+          <h2 className="text-4xl md:text-5xl font-bold font-headline">
+            <span className="text-primary">//</span> Achievements
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-foreground/80">
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-foreground/80 font-mono">
             Milestones and accolades from the journey so far.
           </p>
         </div>
-        <div className="flex flex-wrap justify-center gap-3">
+        <div className="flex flex-wrap justify-center gap-4">
           {achievementsList.map((achievement, index) => (
             <Badge 
               key={index} 
-              className="px-4 py-2 text-base font-medium border-primary/50 border bg-primary/10 text-primary transition-colors hover:bg-primary/20"
+              className="px-6 py-3 text-base font-mono border-2 border-primary/50 bg-primary/10 text-primary transition-colors hover:bg-primary/20 hover:shadow-[0_0_15px_hsl(var(--primary)/0.3)] clip-path-polygon"
             >
-              <Trophy className="mr-2 h-4 w-4 text-accent" />
+              <Trophy className="mr-3 h-5 w-5 text-accent" />
               {achievement}
             </Badge>
           ))}
