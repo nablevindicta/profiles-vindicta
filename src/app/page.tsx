@@ -3,7 +3,7 @@ import { Hero } from "@/components/landing/Hero";
 import { About } from "@/components/landing/About";
 import { Highlights } from "@/components/landing/Highlights";
 import { NeonToolkit } from "@/components/landing/NeonToolkit";
-import { TiktokFeed } from "@/components/landing/TiktokFeed";
+import { SocialMedia } from "@/components/landing/SocialMedia";
 import { Achievements } from "@/components/landing/Achievements";
 import { Contact } from "@/components/landing/Contact";
 import { Footer } from "@/components/landing/Footer";
@@ -17,7 +17,7 @@ export default function Home() {
         <About />
         <Highlights />
         <NeonToolkit />
-        <TiktokFeed />
+        <SocialMedia />
         <Achievements />
         <Contact />
       </main>

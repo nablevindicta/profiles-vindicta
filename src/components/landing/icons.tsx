@@ -1,4 +1,5 @@
 import type { SVGProps } from "react";
+import { Instagram } from "lucide-react";
 
 export const ValorantIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
@@ -40,3 +41,7 @@ export const FastLaneIcon = (props: SVGProps<SVGSVGElement>) => (
       <path d="M19 3v18" />
     </svg>
   );
+
+export const InstagramIcon = (props: SVGProps<SVGSVGElement>) => (
+    <Instagram {...props} />
+);
