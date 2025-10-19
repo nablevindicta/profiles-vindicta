@@ -2,13 +2,13 @@
   "placeholderImages": [
     {
       "id": "hero-bg",
-      "description": "Artistic depiction of Valorant agent Neon running",
+      "description": "Artistic depiction of Valorant agent Neon running with blue electricity",
       "imageUrl": "https://images.unsplash.com/photo-1678888998188-af7c7f21b798?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2YWxvcmFudCUyMG5lb258ZW58MHx8fHwxNzYwOTY4NzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "valorant neon"
     },
     {
       "id": "vindicta-profile",
-      "description": "Profile picture of Vindicta",
+      "description": "Profile picture of a female gamer with headphones in a gaming setup",
       "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnYW1lcnxlbnwwfHx8fDE3NjA5Njk5MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "gamer woman"
     },
