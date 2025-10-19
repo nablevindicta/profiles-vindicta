@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Twitter, Youtube, Instagram } from "lucide-react";
+import { Youtube, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { TikTokIcon, ValorantIcon } from "@/components/landing/icons";
 
@@ -42,11 +42,6 @@ export const Header = () => {
           <Button variant="ghost" size="icon" asChild>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Instagram className="h-5 w-5 text-foreground/70 hover:text-accent transition-colors" />
-            </a>
-          </Button>
-          <Button variant="ghost" size="icon" asChild>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-              <Twitter className="h-5 w-5 fill-current text-foreground/70 hover:text-accent transition-colors" />
             </a>
           </Button>
           <Button variant="ghost" size="icon" asChild>
