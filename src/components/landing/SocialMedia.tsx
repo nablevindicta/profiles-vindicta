@@ -7,22 +7,22 @@ const socialLinks = [
   {
     name: "TikTok",
     icon: TikTokIcon,
-    handle: "@vindicta.plays",
-    url: "https://www.tiktok.com",
+    handle: "@notvindicta",
+    url: "https://www.tiktok.com/@notvindicta",
     description: "High-energy clips, trending sounds, and raw gameplay. Your daily dose of Neon action.",
   },
   {
     name: "Instagram",
     icon: Instagram,
-    handle: "@vindicta.gg",
-    url: "https://instagram.com",
+    handle: "@notvindicta",
+    url: "https://www.instagram.com/notvindicta/",
     description: "Behind-the-scenes content, setup tours, and personal highlights. The life behind the screen.",
   },
   {
     name: "YouTube",
     icon: Youtube,
-    handle: "VindictaVAL",
-    url: "https://youtube.com",
+    handle: "@notvindicta",
+    url: "https://www.youtube.com/@notvindicta",
     description: "In-depth guides, full match commentaries, and montage showcases. Level up your game.",
   },
 ];
